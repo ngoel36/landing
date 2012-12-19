@@ -82,12 +82,21 @@ body {
  	display: block;
  }
 
+ #multicolor {
+ 	height: 2px;
+ 	background-image: url('multicolor.png');
+ 	background-repeat: repeat-x;
+ 	width: 100%;
+ }
+
  #logo {
  	float: left;
  	display: block;
  	height: 50px;
- 	width: 120px;
- 	background-color: green;
+ 	width: 100px;
+ 	background-image: url('logo.png');
+ 	background-repeat: no-repeat;
+ 	background-position: center;
  }
 
  nav#main {
@@ -116,3 +125,20 @@ body {
  #main a:hover {
  	text-decoration: underline;
  }
+
+ /**
+ * Hexagons
+ */
+
+/*.hex {
+    float: left;
+    margin-left: 3px;
+    margin-bottom: -26px;
+}
+.hex .top {
+    width: 0;
+    border-bottom: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+*/
