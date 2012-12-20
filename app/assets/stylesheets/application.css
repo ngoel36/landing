@@ -68,6 +68,10 @@ body {
 	background-color: #f2f6f7;
 }
 
+#email {
+	position: absolute;
+	bottom: 0px;
+}
  #header-container {
  	width: 100%;
  	height: 50px;
@@ -130,15 +134,43 @@ body {
  * Hexagons
  */
 
-/*.hex {
+.hexagons {
+ 	position: relative;
+ 	width: 100%;
+ 	overflow: hidden;
+ 	height: 700px;
+}
+
+.hex {
     float: left;
-    margin-left: 3px;
+    margin-left: 20px;
     margin-bottom: -26px;
 }
+
 .hex .top {
     width: 0;
-    border-bottom: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
+    border-bottom: 52px solid #e6eaed;
+    border-left: 88px solid transparent;
+    border-right: 88px solid transparent;
 }
-*/
+.hex .middle {
+    width: 176px;
+    height: 101px;
+    background: #e6eaed;
+}
+.hex .bottom {
+    width: 0;
+    border-top: 52px solid #e6eaed;
+    border-left: 88px solid transparent;
+    border-right: 88px solid transparent;
+}
+
+.hex-row {
+    clear: left;
+    position: relative;
+    white-space: nowrap;
+    width: 2500px;
+}
+.hex-row.even {
+    margin-left: -95px;
+}
