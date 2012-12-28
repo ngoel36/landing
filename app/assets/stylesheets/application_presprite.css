@@ -678,18 +678,22 @@ body {
 
 #first-photo {
     background: url('max.jpeg');
+    background-size: 100%;
 }
 
 #second-photo {
     background: url('zach.jpeg');
+    background-size: 100%;
 }
 
 #third-photo {
     background: url('nikhil.jpeg');
+    background-size: 100%;
 }
 
 #fourth-photo {
     background: url('luke.jpeg');
+    background-size: 100%;
 }
 
 .member-info {
@@ -762,7 +766,7 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     width: 35px;
     height: 35px;
-    background: url('social.png');
+    background-image: url('social.png');
 }
 
 .blog{
